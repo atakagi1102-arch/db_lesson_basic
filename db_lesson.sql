@@ -18,16 +18,16 @@ INSERT INTO departments (name) VALUES
 ('情報システム');
 
 INSERT INTO people (name, department_id,email,age,gender) VALUES
-('営業太郎', 1,eigyo_taro@gizumo.jp,30,1),
-('営業花子', 1,eigyo_hanako@gizumo.jp,25,2),
-('営業次郎', 1,eigyo_jiro@gizumo.jp,35,1),
-('開発一郎', 2,kaihatsu_ichiro-@gizumo.jp,40,1),
-('開発二郎', 2,kaihatsu_jiro-@gizumo.jp,36,1),
-('開発三郎', 2,kaihatsu_saburo-@gizumo.jp,24,1),
-('開発四郎', 2,kaihatsu_shiro-@gizumo.jp,50,1),
-('経理太郎', 3,keiri_taro@gizumo.jp,26,1),
-('人事太郎', 4,jinji_taro@gizumo.jp,27,1),
-('情報太郎', 5,joho_taro@gizumo.jp,42,1);
+('営業太郎', 1,'eigyo_taro@gizumo.jp',30,1),
+('営業花子', 1,'eigyo_hanako@gizumo.jp',25,2),
+('営業次郎', 1,'eigyo_jiro@gizumo.jp',35,1),
+('開発一郎', 2,'kaihatsu_ichiro-@gizumo'.jp,40,1),
+('開発二郎', 2,'kaihatsu_jiro-@gizumo.jp',36,1),
+('開発三郎', 2,'kaihatsu_saburo-@gizumo.jp',24,1),
+('開発四郎', 2,'kaihatsu_shiro-@gizumo.jp',50,1),
+('経理太郎', 3,'keiri_taro@gizumo.jp',26,1),
+('人事太郎', 4,'jinji_taro@gizumo.jp',27,1),
+('情報太郎', 5,'joho_taro@gizumo.jp',42,1);
 
 
 INSERT INTO reports (person_id, content) VALUES
